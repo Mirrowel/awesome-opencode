@@ -6,7 +6,7 @@
 
 > A curated list of awesome plugins, themes, agents, projects, and resources for [opencode](https://opencode.ai/).
 
-[opencode](https://opencode.ai/) is an AI coding agent for the terminal, built by the team at [SST](https://github.com/sst). This list is a community-driven collection of resources to make it even more powerful.
+[opencode](https://opencode.ai/) is an AI coding agent for terminal, built by team at [SST](https://github.com/sst). This list is a community-driven collection of resources to make it even more powerful.
 
 ## 📋 Table of Contents
 
@@ -33,6 +33,11 @@
 |[Ring a Bell Example](https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e#file-opencode-terminal-bell-plugin-md)|-|A simple plugin to ring the terminal bell once a request is complete.|
 |[Opencode-Google-AI-Search-Plugin](https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).|
 |[Opencode-Context-Analysis-Plugin](https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Context-Analysis-Plugin)|An opencode plugin that provides detailed token usage analysis for your AI sessions.|
+|[opencode-ignore](https://github.com/lgladysz/opencode-ignore)|![GitHub Repo stars](https://badgen.net/github/stars/lgladysz/opencode-ignore)|Plugin to ignore directory / file based on pattern.|
+|[opencode-warcraft-notifications](https://github.com/pantheon-org/opencode-warcraft-notifications)|![GitHub Repo stars](https://badgen.net/github/stars/pantheon-org/opencode-warcraft-notifications)|Notification plugin with Warcraft sounds for opencode completion alerts.|
+|[with-context-mcp](https://github.com/boxpositron/with-context-mcp)|![GitHub Repo stars](https://badgen.net/github/stars/boxpositron/with-context-mcp)|MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.|
+|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Plugin for managing and organizing opencode skills and capabilities.|
+|[openskills](https://github.com/numman-ali/openskills)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/openskills)|Alternative skills management plugin for opencode with enhanced features.|
 
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
@@ -66,6 +71,11 @@
 |[opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)|![GitHub Repo stars](https://badgen.net/github/stars/NickvanDyke/opencode.nvim)|Neovim plugin for making convenient editor-aware prompts.|
 |[kimaki](https://github.com/remorses/kimaki/)|![GitHub Repo stars](https://badgen.net/github/stars/remorses/kimaki)|A Discord bot to control opencode sessions on any computer via Discord.|
 |[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)|![GitHub Repo stars](https://badgen.net/github/stars/BloopAI/vibe-kanban)|A Kanban board to manage and orchestrate AI coding agents in parallel.[[1](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHIHL7uayaJJgxDiGXeuGn5lO7Mu37isBe1A6HfFTG9RSQU7M4TCSC2uasqpncR57EkYh4E6Nwch-BbwcvOa1mv4cBwdzCvBqb3C4e4QWjTFaDm5680PwqIeOX4JOHllfU%3D)]|
+|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Skills management system for organizing and tracking opencode capabilities.|
+|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management tool for opencode to track and organize coding sessions.|
+|[Handy](https://github.com/cjpais/Handy)|![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy)|Easy text input via speech in opencode TUI - voice-to-text integration.|
+|[opencode-web](https://github.com/kcrommett/opencode-web)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/opencode-web)|Web interface for opencode - browser-based access to AI coding agent.|
+|[openspec](https://github.com/Fission-AI/OpenSpec)|![GitHub Repo stars](https://badgen.net/github/stars/Fission-AI/OpenSpec)|Spec-driven development with opencode - structured specification management.|
 
 ➡️ **[Suggest a new Project in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/projects)**
 
@@ -86,4 +96,4 @@ Found a great opencode related project? Please contribute by **[starting a new d
 
 ## 📄 License
 
-This awesome list is released under the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+This awesome list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.

@@ -4,9 +4,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome plugins, themes, agents, projects, and resources for [opencode](https://opencode.ai/).
+> A curated list of awesome [opencode](https://opencode.ai/) plugins, themes, agents, projects, and resources.
 
-[opencode](https://opencode.ai/) is an AI coding agent for terminal, built by team at [SST](https://github.com/sst). This list is a community-driven collection of resources to make it even more powerful.
+[opencode](https://opencode.ai/) is an AI coding agent for the terminal, built by the team at [SST](https://github.com/sst). This list is a community-driven collection of resources to make it even more powerful.
 
 ## 📋 Table of Contents
 
@@ -33,14 +33,14 @@
 |[Ring a Bell Example](https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e#file-opencode-terminal-bell-plugin-md)|-|A simple plugin to ring the terminal bell once a request is complete.|
 |[Opencode-Google-AI-Search-Plugin](https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Google-AI-Search-Plugin)|An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).|
 |[Opencode-Context-Analysis-Plugin](https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Context-Analysis-Plugin)|An opencode plugin that provides detailed token usage analysis for your AI sessions.|
-|[opencode-ignore](https://github.com/lgladysz/opencode-ignore)|![GitHub Repo stars](https://badgen.net/github/stars/lgladysz/opencode-ignore)|Plugin to ignore directory / file based on pattern.|
+|[opencode-ignore](https://github.com/lgladysz/opencode-ignore)|![GitHub Repo stars](https://badgen.net/github/stars/lgladysz/opencode-ignore)|Plugin to ignore directory/file based on pattern.|
 |[opencode-warcraft-notifications](https://github.com/pantheon-org/opencode-warcraft-notifications)|![GitHub Repo stars](https://badgen.net/github/stars/pantheon-org/opencode-warcraft-notifications)|Notification plugin with Warcraft sounds for opencode completion alerts.|
 |[with-context-mcp](https://github.com/boxpositron/with-context-mcp)|![GitHub Repo stars](https://badgen.net/github/stars/boxpositron/with-context-mcp)|MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.|
-|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Plugin for managing and organizing opencode skills and capabilities.|
+|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Plugin for managing and organising opencode skills and capabilities.|
 |[openskills](https://github.com/numman-ali/openskills)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/openskills)|Alternative skills management plugin for opencode with enhanced features.|
 |[opencode-smart-title](https://github.com/Tarquinen/opencode-smart-title)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-smart-title)|Auto-generates meaningful session titles using AI.|
 |[opencode-background](https://github.com/zenobi-us/opencode-background)|![GitHub Repo stars](https://badgen.net/github/stars/zenobi-us/opencode-background)|Background process management plugin for opencode.|
-|[opencode-dynamic-context-pruning](https://github.com/Tarquinen/opencode-dynamic-context-pruning)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning)|Plugin that optimizes token usage by pruning obsolete tool outputs from conversation context.|
+|[opencode-dynamic-context-pruning](https://github.com/Tarquinen/opencode-dynamic-context-pruning)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning)|Plugin that optimises token usage by pruning obsolete tool outputs from conversation context.|
 |[opencode-tokenscope](https://github.com/ramtinJ95/opencode-tokenscope)|![GitHub Repo stars](https://badgen.net/github/stars/ramtinJ95/opencode-tokenscope)|Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.|
 |[opencode-openai-codex-auth](https://github.com/numman-ali/opencode-openai-codex-auth)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth)|This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication, allowing you to use your ChatGPT subscription instead of OpenAI Platform API credits.|
 |[OpenHax codex](https://github.com/open-hax/codex)|![GitHub Repo stars](https://badgen.net/github/stars/open-hax/codex)|OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions - uses OpenAI's official authentication method|
@@ -48,7 +48,7 @@
 |[Opencode-Roadmap](https://github.com/IgorWarzocha/Opencode-Roadmap)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap)|Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities with immutable history and auto-archiving.|
 |[opencode-gemini-auth](https://github.com/jenslys/opencode-gemini-auth)|![GitHub Repo stars](https://badgen.net/github/stars/jenslys/opencode-gemini-auth)|Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan and its included quota instead of API billing|
 |[opencode-direnv](https://github.com/simonwjackson/opencode-direnv)|![GitHub Repo stars](https://badgen.net/github/stars/simonwjackson/opencode-direnv)|Automatically loads direnv environment variables at session start. Perfect for Nix flakes and project-specific environments.|
-|[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)|![GitHub Repo stars](https://badgen.net/github/stars/code-yeongyu/oh-my-opencode)|Background agents, pre-built tools (LSP/AST/MCP), curated agents, and Claude Code compatible layer.|
+|[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)|![GitHub Repo stars](https://badgen.net/github/stars/code-yeongyu/oh-my-opencode)|Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.|
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
 ## Themes
@@ -81,15 +81,15 @@
 |[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)|![GitHub Repo stars](https://badgen.net/github/stars/router-for-me/CLIProxyAPI)|A proxy server providing compatible API interfaces for multiple model CLIs.|
 |[opencode.nvim](https://github.com/NickvanDyke/opencode.nvim)|![GitHub Repo stars](https://badgen.net/github/stars/NickvanDyke/opencode.nvim)|Neovim plugin for making convenient editor-aware prompts.|
 |[kimaki](https://github.com/remorses/kimaki/)|![GitHub Repo stars](https://badgen.net/github/stars/remorses/kimaki)|A Discord bot to control opencode sessions on any computer via Discord.|
-|[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)|![GitHub Repo stars](https://badgen.net/github/stars/BloopAI/vibe-kanban)|A Kanban board to manage and orchestrate AI coding agents in parallel.[[1](https://www.google.com/url?sa=E&q=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHIHL7uayaJJgxDiGXeuGn5lO7Mu37isBe1A6HfFTG9RSQU7M4TCSC2uasqpncR57EkYh4E6Nwch-BbwcvOa1mv4cBwdzCvBqb3C4e4QWjTFaDm5680PwqIeOX4JOHllfU%3D)]|
-|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Skills management system for organizing and tracking opencode capabilities.|
-|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management tool for opencode to track and organize coding sessions.|
+|[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)|![GitHub Repo stars](https://badgen.net/github/stars/BloopAI/vibe-kanban)|A Kanban board to manage and orchestrate AI coding agents in parallel.|
+|[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Skills management system for organising and tracking opencode capabilities.|
+|[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management tool for opencode to track and organise coding sessions.|
 |[Handy](https://github.com/cjpais/Handy)|![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy)|Easy Open Source Speech to Text|
 |[opencode-web](https://github.com/kcrommett/opencode-web)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/opencode-web)|Web interface for opencode - browser-based access to AI coding agent.|
 |[openspec](https://github.com/Fission-AI/OpenSpec)|![GitHub Repo stars](https://badgen.net/github/stars/Fission-AI/OpenSpec)|Spec-driven development with opencode - structured specification management.|
 |[oc-manager](https://github.com/kcrommett/oc-manager)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/oc-manager)|Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk. The app is written in TypeScript, runs on Bun, and renders with @opentui/react.|
 |[beads](https://github.com/steveyegge/beads)|![GitHub Repo stars](https://badgen.net/github/stars/steveyegge/beads)|Steve Yegge's project/task management system for agents (with beads_viewer UI)|
-|[opencode-ddev](https://github.com/JUVOJustin/opencode-ddev)|![GitHub Repo stars](https://badgen.net/github/stars/JUVOJustin/opencode-ddev)|Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments.).|
+|[opencode-ddev](https://github.com/JUVOJustin/opencode-ddev)|![GitHub Repo stars](https://badgen.net/github/stars/JUVOJustin/opencode-ddev)|Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).|
 ➡️ **[Suggest a new Project in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/projects)**
 
 ## Resources
@@ -105,8 +105,8 @@
 
 ## 🤝 Contributing
 
-Found a great opencode related project? Please contribute by **[starting a new discussion](https://github.com/awesome-opencode/awesome-opencode/discussions)** in the appropriate category.
+Found an Awesome Opencode project? Please contribute by **[starting a new discussion](https://github.com/awesome-opencode/awesome-opencode/discussions)** in the appropriate category.
 
 ## 📄 License
 
-This awesome list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+This awesome opencode list is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.

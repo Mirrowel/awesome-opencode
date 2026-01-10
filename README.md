@@ -1,18 +1,9 @@
-<!-- MAIN CONTAINER -->
+<!-- HEADER -->
 <div align="center">
-
-<table width="850" border="0" cellspacing="0" cellpadding="0">
-<tbody>
-
-<!-- =========================================
-     HEADER SECTION
-     ========================================= -->
-<tr>
-<td width="850" align="center" valign="top">
 
 <br>
 <!-- LOGO -->
-<img src="https://github.com/user-attachments/assets/aced1e8e-e6be-485a-9015-b822d01ab064" width="600" alt="Awesome Opencode" />
+<img src="https://github.com/user-attachments/assets/aced1e8e-e6be-485a-9015-b822d01ab064" alt="Awesome Opencode" />
 <br><br>
 
 <!-- TITLE -->
@@ -21,7 +12,7 @@
 <!-- BADGES -->
 <p>
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" height="28" alt="Awesome" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 <a href="https://github.com/sst/opencode"><img src="https://img.shields.io/github/stars/sst/opencode?style=social" height="28" alt="Opencode Stars" /></a>
 </p>
 
@@ -31,45 +22,60 @@
 <h3>A curated list of plugins, themes, agents, and resources for <a href="https://opencode.ai/">Opencode</a>.</h3>
 <h3>The AI coding agent for the terminal, built by the team at <a href="https://github.com/sst">SST</a>.</h3>
 
-<br><br>
+<br>
 
-<!-- 
-    NAVIGATION BAR (MARKDOWN SYNTAX)
-    The blank lines above and below the links are CRITICAL.
-    They tell GitHub to interpret this as Markdown links, not just text.
--->
-
-[**OFFICIAL**](#official) &nbsp;&nbsp;•&nbsp;&nbsp; [**PLUGINS**](#plugins) &nbsp;&nbsp;•&nbsp;&nbsp; [**THEMES**](#themes) &nbsp;&nbsp;•&nbsp;&nbsp; [**AGENTS**](#agents) &nbsp;&nbsp;•&nbsp;&nbsp; [**PROJECTS**](#projects) &nbsp;&nbsp;•&nbsp;&nbsp; [**RESOURCES**](#resources)
+[**OFFICIAL**](#official) • [**PLUGINS**](#plugins) • [**THEMES**](#themes) • [**AGENTS**](#agents) • [**PROJECTS**](#projects) • [**RESOURCES**](#resources)
 
 <br>
 <hr>
-<br>
 
-</td>
-</tr>
+</div>
 
-<!-- =========================================
-     CONTENT SECTION
-     ========================================= -->
-<tr>
-<td width="850" align="left" valign="top">
-
-<!-- 
-    ANCHOR TARGETS
-    We use <div id="name"></div>. 
-    GitHub's Markdown links will automatically find these IDs.
--->
+<!-- CONTENT -->
 
 <div id="official"></div>
 
-<h3>⭐️ Official Repositories</h3>
+<details open>
+<summary><strong>⭐️ OFFICIAL REPOSITORIES</strong></summary>
+<br>
 
-| Project | Stars | Description |
-| :--- | :--- | :--- |
-| **[opencode](https://github.com/sst/opencode)** | ![Stars](https://badgen.net/github/stars/sst/opencode) | The official opencode AI coding agent. |
-| **[opencode-sdk-js](https://github.com/sst/opencode-sdk-js)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-js) | Official JavaScript/TypeScript SDK for opencode. |
-| **[opencode-sdk-go](https://github.com/sst/opencode-sdk-go)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-go) | Official Go SDK for opencode. |
-| **[opencode-sdk-python](https://github.com/sst/opencode-sdk-python)** | ![Stars](https://badgen.net/github/stars/sst/opencode-sdk-python) | Official Python SDK for opencode. |
+<details>
+  <summary><b>opencode</b> <img src="https://badgen.net/github/stars/sst/opencode" height="14"/> - <i>The official AI coding agent</i></summary>
+  <blockquote>
+    The official opencode AI coding agent.
+    <br><br>
+    <a href="https://github.com/sst/opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-sdk-js</b> <img src="https://badgen.net/github/stars/sst/opencode-sdk-js" height="14"/> - <i>JavaScript/TypeScript SDK</i></summary>
+  <blockquote>
+    Official JavaScript/TypeScript SDK for opencode.
+    <br><br>
+    <a href="https://github.com/sst/opencode-sdk-js">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-sdk-go</b> <img src="https://badgen.net/github/stars/sst/opencode-sdk-go" height="14"/> - <i>Go SDK</i></summary>
+  <blockquote>
+    Official Go SDK for opencode.
+    <br><br>
+    <a href="https://github.com/sst/opencode-sdk-go">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-sdk-python</b> <img src="https://badgen.net/github/stars/sst/opencode-sdk-python" height="14"/> - <i>Python SDK</i></summary>
+  <blockquote>
+    Official Python SDK for opencode.
+    <br><br>
+    <a href="https://github.com/sst/opencode-sdk-python">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+</details>
 
 <br>
 
@@ -535,10 +541,4 @@ Found an Awesome Opencode project? <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/discussions"><b>Start a discussion</b></a> in the appropriate category!
 <br><br>
 <sub>Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</sub>
-</div>
-
-</td>
-</tr>
-</tbody>
-</table>
 </div>

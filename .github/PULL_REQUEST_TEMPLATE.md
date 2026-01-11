@@ -1,17 +1,35 @@
-## New Entry Submission
+## Submission Type
 
-**Category:** (plugins / themes / agents / projects / resources)
+- [ ] Plugin
+- [ ] Project
+- [ ] Theme
+- [ ] Agent
+- [ ] Resource
 
-**File added:** `data/{category}/your-entry.yaml`
+## Details
 
-### Checklist
+**Name:** 
+**Repository:** 
+**Description:** 
 
-- [ ] YAML file is in the correct category folder
+## Checklist
+
+- [ ] Relevant to OpenCode
+- [ ] Repository is public and accessible
+- [ ] Actively maintained
+- [ ] Not a duplicate
+- [ ] YAML file in correct folder (`data/{category}/`)
 - [ ] Filename is kebab-case (e.g., `my-plugin.yaml`)
-- [ ] All required fields included (name, repo, description, full_description)
-- [ ] Repository is public and maintained
-- [ ] Entry is relevant to OpenCode
 
-### Description
+## YAML Format
 
-Brief description of what this entry does and why it should be included.
+Create a file in `data/{category}/your-entry.yaml`:
+
+```yaml
+name: Your Entry Name
+repo: https://github.com/owner/repo
+description: Short description (shown in summary)
+full_description: Longer description explaining what it does.
+```
+
+See [contributing.md](contributing.md) for full instructions.

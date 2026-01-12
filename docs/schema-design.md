@@ -24,18 +24,14 @@ awesome-opencode/
 ├── data/
 │   ├── plugins/
 │   │   └── *.yaml
-│   ├── mcp-servers/
-│   │   └── *.yaml
 │   ├── themes/
 │   │   └── *.yaml
-│   ├── commands/
-│   │   └── *.yaml
 │   ├── agents/
+│   │   └── *.yaml       # Agent configurations and skills
+│   ├── projects/
 │   │   └── *.yaml
-│   ├── skills/
-│   │   └── *.yaml
-│   ├── tools/
-│   │   └── *.yaml
+│   ├── resources/
+│   │   └── *.yaml       # Guides, configs, MCP servers, tools, commands
 │   └── forks/
 │       └── *.yaml
 └── docs/
@@ -57,24 +53,11 @@ JavaScript or TypeScript modules that extend OpenCode's core functionality. Plug
 - Local path: Reference to local `.js` or `.ts` file
 
 **Example Use Cases:**
-- Language servers for new programming languages
+- Authentication providers
 - Custom UI components and panels
 - Integration with external services
 
-### 2.2 MCP Server (`mcp-server`)
-
-Model Context Protocol servers that provide tools and resources to AI assistants. MCP servers can run locally as commands or connect to remote URLs.
-
-**Installation Methods:**
-- Local command: Executable path or `npx` command
-- Remote URL: HTTP endpoint for remote MCP servers
-
-**Example Use Cases:**
-- Database access and query tools
-- API integrations (GitHub, Slack, etc.)
-- File system operations with custom logic
-
-### 2.3 Theme (`theme`)
+### 2.2 Theme (`theme`)
 
 Visual themes that customize the OpenCode editor appearance. Themes are distributed as JSON files containing color schemes and styling rules.
 
@@ -87,71 +70,48 @@ Visual themes that customize the OpenCode editor appearance. Themes are distribu
 - Syntax highlighting for specific languages
 - Custom UI color schemes
 
-### 2.4 Command (`command`)
+### 2.3 Agent (`agent`)
 
-Custom slash commands that execute predefined workflows. Commands are defined in Markdown files with YAML frontmatter.
+Custom AI agent configurations and skills that define behavior, tools, and instructions for specialized tasks. This category includes both agent configurations and reusable skill instruction sets.
 
-**Format:**
-```yaml
----
-name: my-command
-description: Does something useful
----
-# Command Implementation
-This markdown contains the command's definition and implementation details.
-```
-
-**Example Use Cases:**
-- Common refactoring operations
-- Project-specific build tasks
-- Automated code review workflows
-
-### 2.5 Agent (`agent`)
-
-Custom AI agent configurations that define behavior, tools, and instructions for specialized tasks.
-
-**Format:**
-```yaml
----
-name: my-agent
-description: Specialized code reviewer
----
-# Agent Configuration
-This markdown defines the agent's system prompt, available tools, and behavior.
-```
+**Includes:**
+- Agent configurations (system prompts, available tools, behavior)
+- Skills (reusable instruction sets in `SKILL.md` format)
 
 **Example Use Cases:**
 - Security-focused code reviewers
 - Documentation generators
-- Architecture analysis agents
-
-### 2.6 Skill (`skill`)
-
-Reusable agent instructions stored in `SKILL.md` files. Skills are portable instruction sets that can be loaded by compatible agents.
-
-**Format:**
-```
-awesome-opencode/
-└── skill/
-    └── <skill-name>/
-        └── SKILL.md
-```
-
-**Example Use Cases:**
 - Interview question generators
-- Code explanation helpers
 - Bug reproduction assistants
 
-### 2.7 Tool (`tool`)
+### 2.4 Project (`project`)
 
-Standalone utilities that can be invoked from within OpenCode. Tools are executable programs or scripts.
+Standalone applications, utilities, and tools built for or with OpenCode. These are complete projects rather than extensions.
 
 **Example Use Cases:**
-- CLI utilities for project tasks
-- Code generation scripts
-- Static analysis tools
+- Web interfaces for OpenCode
+- Session management tools
+- Proxy servers and API wrappers
+- Companion applications
 
-### 2.8 Fork (`fork`)
+### 2.5 Resource (`resource`)
+
+Guides, configurations, MCP servers, tools, and commands that enhance the OpenCode experience without being installable plugins.
+
+**Includes:**
+- Configuration starters and examples
+- MCP servers (Model Context Protocol servers)
+- CLI tools and utilities
+- Custom slash commands
+- How-to guides and tutorials
+
+**Example Use Cases:**
+- Database access MCP servers
+- API integrations (GitHub, Slack, etc.)
+- Project-specific build commands
+- Starter configuration templates
+
+### 2.6 Fork (`fork`)
 
 Modified builds of OpenCode itself with custom features or patches. Forks maintain compatibility while adding functionality.
 
@@ -273,7 +233,7 @@ The following fields are being added to enhance discoverability, installation gu
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `type` | enum | Extension type: `plugin`, `mcp-server`, `theme`, `command`, `agent`, `skill`, `tool`, or `fork` |
+| `type` | enum | Extension type: `plugin`, `theme`, `agent`, `project`, `resource`, or `fork` |
 | `scope` | array | Installation scope: `[global]`, `[project]`, or `[global, project]` |
 
 ### New Optional Fields
@@ -370,12 +330,10 @@ How to uninstall the extension
 | Extension Type | Key Sections |
 |----------------|--------------|
 | `plugin` | Installation, Configuration |
-| `mcp-server` | Prerequisites, Installation, Configuration |
 | `theme` | Installation, Files Modified |
-| `command` | Installation, Configuration |
 | `agent` | Installation, Configuration |
-| `skill` | Installation, Files Modified |
-| `tool` | Prerequisites, Installation |
+| `project` | Prerequisites, Installation |
+| `resource` | Prerequisites, Installation, Configuration |
 | `fork` | Installation, Files Modified |
 
 ---
@@ -402,12 +360,10 @@ The awesome-opencode schema is designed for seamless conversion to downstream pl
 | awesome-opencode Type | opencode.cafe Type |
 |-----------------------|-------------------|
 | `plugin` | `plugin` |
-| `mcp-server` | `mcpServer` |
 | `theme` | `theme` |
-| `command` | `command` |
 | `agent` | `agent` |
-| `skill` | `skill` |
-| `tool` | `tool` |
+| `project` | `project` |
+| `resource` | `resource` |
 | `fork` | `fork` |
 
 ### Conversion Example
@@ -508,12 +464,10 @@ Future improvements to the contribution process:
 | Type | Directory | File Extension |
 |------|-----------|----------------|
 | `plugin` | `data/plugins/` | `.yaml` |
-| `mcp-server` | `data/mcp-servers/` | `.yaml` |
 | `theme` | `data/themes/` | `.yaml` |
-| `command` | `data/commands/` | `.yaml` |
 | `agent` | `data/agents/` | `.yaml` |
-| `skill` | `data/skills/` | `.yaml` |
-| `tool` | `data/tools/` | `.yaml` |
+| `project` | `data/projects/` | `.yaml` |
+| `resource` | `data/resources/` | `.yaml` |
 | `fork` | `data/forks/` | `.yaml` |
 
 ### Minimal Valid Entry
@@ -584,7 +538,7 @@ This section provides a phased implementation plan for adding the new schema fie
 
 - [ ] **Task 1.1**: Add `type` field as required enum
   - [ ] Open `data/schema.json` and read current structure
-  - [ ] Add `type` property with enum values: `plugin`, `mcp-server`, `theme`, `command`, `agent`, `skill`, `tool`, `fork`
+  - [ ] Add `type` property with enum values: `plugin`, `theme`, `agent`, `project`, `resource`, `fork`
   - [ ] Set `type` to required in schema
   - [ ] Add description for each enum value
 
@@ -657,18 +611,16 @@ This section provides a phased implementation plan for adding the new schema fie
 
 - [ ] **Task 2.1**: Map category folders to extension types
   - [ ] `data/plugins/` → `type: plugin`
-  - [ ] `data/mcp-servers/` → `type: mcp-server`
   - [ ] `data/themes/` → `type: theme`
-  - [ ] `data/commands/` → `type: command`
   - [ ] `data/agents/` → `type: agent`
-  - [ ] `data/skills/` → `type: skill`
-  - [ ] `data/tools/` → `type: tool`
+  - [ ] `data/projects/` → `type: project`
+  - [ ] `data/resources/` → `type: resource`
   - [ ] `data/forks/` → `type: fork`
 
 - [ ] **Task 2.2**: Add `type` field to all entries
   - [ ] Use `grep` to find all YAML files in `data/` subdirectories
   - [ ] For each file in `data/plugins/`, add `type: plugin` after `description`
-  - [ ] For each file in `data/mcp-servers/`, add `type: mcp-server`
+  - [ ] For each file in `data/themes/`, add `type: theme`
   - [ ] Continue for all category folders (use edit with replaceAll for efficiency)
   - [ ] Verify files were modified correctly
 
@@ -676,8 +628,7 @@ This section provides a phased implementation plan for adding the new schema fie
   - [ ] Add `scope: [global, project]` to all entries (most extensions work both places)
   - [ ] Consider special cases:
     - Themes: May be `[global]` only
-    - Commands: May be `[project]` only (project-specific workflows)
-    - Skills: May be `[global]` only (shared instructions)
+    - Resources: May vary based on content type
   - [ ] Add appropriate scope based on extension type analysis
 
 - [ ] **Task 2.4**: Run validation on all entries

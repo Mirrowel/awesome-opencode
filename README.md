@@ -161,6 +161,15 @@
 </details>
 
 <details>
+  <summary><b>Envsitter Guard</b> <img src="https://badgen.net/github/stars/boxpositron/envsitter-guard" height="14"/> - <i>Prevent .env leaks</i></summary>
+  <blockquote>
+    OpenCode plugin that prevents agents/tools from reading or editing sensitive .env* files, while still allowing safe inspection via EnvSitter (keys + deterministic fingerprints; never values).
+    <br><br>
+    <a href="https://github.com/boxpositron/envsitter-guard">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Froggy</b> <img src="https://badgen.net/github/stars/smartfrog/opencode-froggy" height="14"/> - <i>Hooks and specialized agents</i></summary>
   <blockquote>
     Plugin providing Claude Code-style hooks, specialized agents, and tools like gitingest.

@@ -9,10 +9,9 @@
 name: Example Enterprise Fork
 repo: https://github.com/example/opencode-enterprise
 tagline: OpenCode fork with enterprise authentication and audit logging
-description: |
-  A fork of OpenCode designed for enterprise environments.
+description: A fork of OpenCode designed for enterprise environments.
   
-  Additions:
+  -Additions
   - SAML/SSO authentication
   - Audit logging for compliance
   - Custom model routing

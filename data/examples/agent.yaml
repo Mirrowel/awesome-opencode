@@ -10,9 +10,8 @@
 name: Example Security Reviewer
 repo: https://github.com/example/opencode-security-agent
 tagline: AI agent specialized in security code review
-description: |
-  A custom agent configuration for security-focused code review.
-  Includes:
+description: A custom agent configuration for security-focused code review.
+  Includes
   - Custom system prompts for security analysis
   - Predefined tools for vulnerability scanning
   - Skills for OWASP Top 10 detection
